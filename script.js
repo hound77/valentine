@@ -58,7 +58,7 @@ function isMobile() {
 
 function checkDeviceAndPrompt() {
   if (isMobile()) {
-    window.location.href = "/mobile.html";
+    window.location.href = "/valentine-for-developers/mobile.html";
   }
 }
 
