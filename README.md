@@ -6,9 +6,9 @@ Valentine's Day message from a developer. Replace `some_name` in the URL with th
 
 1. Open the application using the following link: [Valentine for Developers](https://rhythmshandlya.github.io/valentine-for-developers/?name=some_name).
 
-2. Replace `some_name` in the URL with the name of your significant other.
+2. Replace `some_name` in the URL with the name of your significant(possibly not real) other.
 
-3. Enjoy the creative and developer-themed Valentine's Day message generated just for them!
+3. Enjoy!
 
 ## Demo
 
