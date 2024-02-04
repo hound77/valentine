@@ -1,6 +1,6 @@
 # Valentine's Day for Developers 💻
 
-Express your love to that special someone with a touch of coding flair! This simple web application generates a personalized Valentine's Day message for developers. Replace `some_name` in the URL with the name of your loved one to create a unique message just for them.
+Valentine's Day message for developers. Replace `some_name` in the URL with the name of your loved one to create a unique message just for them.
 
 ## How to Use
 
