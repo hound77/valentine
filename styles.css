@@ -1,0 +1,199 @@
+body {
+    background: radial-gradient(
+        circle closest-side at 60% 43%,
+        #323232 26%,
+        rgba(187, 0, 51, 0) 27%
+      ),
+      radial-gradient(
+        circle closest-side at 40% 43%,
+        #323232 26%,
+        rgba(187, 0, 51, 0) 27%
+      ),
+      radial-gradient(
+        circle closest-side at 40% 22%,
+        #373737 45%,
+        rgba(221, 51, 85, 0) 46%
+      ),
+      radial-gradient(
+        circle closest-side at 60% 22%,
+        #373737 45%,
+        rgba(221, 51, 85, 0) 46%
+      ),
+      radial-gradient(
+        circle closest-side at 50% 35%,
+        #373737 30%,
+        rgba(221, 51, 85, 0) 31%
+      ),
+      radial-gradient(
+          circle closest-side at 60% 43%,
+          #323232 26%,
+          rgba(187, 0, 51, 0) 27%
+        )
+        50px 50px,
+      radial-gradient(
+          circle closest-side at 40% 43%,
+          #323232 26%,
+          rgba(187, 0, 51, 0) 27%
+        )
+        50px 50px,
+      radial-gradient(
+          circle closest-side at 40% 22%,
+          #3c3c3c 45%,
+          rgba(221, 51, 85, 0) 46%
+        )
+        50px 50px,
+      radial-gradient(
+          circle closest-side at 60% 22%,
+          #3c3c3c 45%,
+          rgba(221, 51, 85, 0) 46%
+        )
+        50px 50px,
+      radial-gradient(
+          circle closest-side at 50% 35%,
+          #3c3c3c 30%,
+          rgba(221, 51, 85, 0) 31%
+        )
+        50px 50px;
+    background-color: #323232;
+    background-size: 100px 100px;
+    font-family: "Lato", sans-serif;
+  }
+
+  .centered {
+    width: 100%;
+    margin: 30vh auto;
+    text-align: center;
+  }
+
+  .centered h4 {
+    color: #ffffff;
+    font-size: 3em;
+    font-weight: bold;
+  }
+
+  button {
+    all: unset;
+    height: 40px;
+    width: 100px;
+    padding: 10px 40px;
+    display: inline-block;
+    cursor: pointer;
+    margin: 0 20px;
+    border-radius: 5px;
+    color: #ffffff;
+    font-size: 1.5em;
+    line-height: 1.5em;
+    text-transform: uppercase;
+    transition: all 0.25s ease-in-out;
+  }
+
+  .no {
+    background-color: #d8124b;
+  }
+
+  .yes {
+    background-color: #12d890;
+  }
+
+  .signature {
+    position: absolute;
+    margin: auto;
+    bottom: 0;
+    top: auto;
+    width: 95%;
+  }
+
+  .signature p {
+    text-align: center;
+    font-family: Helvetica, Arial, Sans-Serif;
+    font-size: 0.85em;
+    color: #ffffff;
+  }
+
+  .signature .much-heart {
+    display: inline-block;
+    position: relative;
+    margin: 0 4px;
+    height: 10px;
+    width: 10px;
+    background: #d8124b;
+    border-radius: 4px;
+    -ms-transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+    transform: rotate(45deg);
+  }
+
+  .signature .much-heart::before,
+  .signature .much-heart::after {
+    display: block;
+    content: "";
+    position: absolute;
+    margin: auto;
+    height: 10px;
+    width: 10px;
+    border-radius: 5px;
+    background: #d8124b;
+    top: -4px;
+  }
+
+  .signature .much-heart::after {
+    bottom: 0;
+    top: auto;
+    left: -4px;
+  }
+
+  .signature a {
+    color: #d8124b;
+    text-decoration: none;
+    font-weight: bold;
+  }
+
+  .signature a:hover {
+    color: coral;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  .shake {
+    animation: shakeAnimation 0.5s ease-in-out;
+  }
+
+  @keyframes shakeAnimation {
+    0%,
+    100% {
+      transform: translateX(0);
+    }
+    25%,
+    75% {
+      transform: translateX(-15px);
+    }
+    50% {
+      transform: translateX(15px);
+    }
+  }
+
+@media only screen and (max-width: 600px) {
+  .centered h4 {
+      font-size: 2em;
+  }
+
+  button {
+      width: 80px;
+      padding: 8px 30px;
+      margin: 0 10px;
+      font-size: 1.2em;
+  }
+
+  .signature p {
+      font-size: 0.75em;
+  }
+}
+
+@media only screen and (min-width: 601px) and (max-width: 1024px) {
+
+}
+
+@media only screen and (min-width: 1025px) {
+  body {
+      background-size: 100px 100px;
+  }
+}
