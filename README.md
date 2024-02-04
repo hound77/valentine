@@ -26,7 +26,7 @@ If you have ideas for improvements or additional features, feel free to contribu
 
 ## Credits
 
-![Rhythm Shandlya](https://twitter.com/RhythmShandlya)
+[Rhythm Shandlya](https://twitter.com/RhythmShandlya)
 
 ## License
 
