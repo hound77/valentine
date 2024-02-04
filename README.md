@@ -12,7 +12,7 @@ Express your love to that special someone with a touch of coding flair! This sim
 
 ## Demo
 
-![Valentine for Developers Demo](demo.gif)
+![Valentine for Developers Demo](/assets/demo.gif)
 
 ## Contributing
 
