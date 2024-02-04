@@ -1,6 +1,6 @@
 # Valentine's Day for Developers 💻
 
-Valentine's Day message for developers. Replace `some_name` in the URL with the name of your loved one to create a unique message just for them.
+Valentine's Day message from a developer. Replace `some_name` in the URL with the name of your loved one to create a unique message just for them.
 
 ## How to Use
 
@@ -26,7 +26,7 @@ If you have ideas for improvements or additional features, feel free to contribu
 
 ## Credits
 
-This project was inspired by the creativity and love shared within the developer community. Special thanks to [Your Name] for the idea and [Your Name] for the implementation.
+![Rhythm Shandlya](https://twitter.com/RhythmShandlya)
 
 ## License
 
