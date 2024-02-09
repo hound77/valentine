@@ -38,7 +38,7 @@ document.addEventListener("DOMContentLoaded", () => {
   console.log(name)
 
   const valentineQuestion = document.getElementById('valentineQuestion');
-  valentineQuestion.textContent = `Will you be my Valentine, Sakshi?`;
+  valentineQuestion.textContent = `Sakshi, Will you be my Valentine?`;
 
   noButton.addEventListener("mouseover", () => {
     performAction();
