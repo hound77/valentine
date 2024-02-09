@@ -38,7 +38,7 @@ document.addEventListener("DOMContentLoaded", () => {
   console.log(name)
 
   const valentineQuestion = document.getElementById('valentineQuestion');
-  valentineQuestion.textContent = `Will you be my Valentine, ${name}?`;
+  valentineQuestion.textContent = `Will you be my Valentine, Sakshi?`;
 
   noButton.addEventListener("mouseover", () => {
     performAction();
@@ -58,7 +58,7 @@ function isMobile() {
 
 function checkDeviceAndPrompt() {
   if (isMobile()) {
-    window.location.href = "/valentine-for-developers/mobile.html";
+    window.location.href = "/valentine/mobile.html";
   }
 }
 
