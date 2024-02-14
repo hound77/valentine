@@ -52,14 +52,14 @@ document.addEventListener("DOMContentLoaded", () => {
 });
 
 
-function isMobile() {
-  return /Android|iPhone|iPad|iPod|BlackBerry|Windows Phone/i.test(navigator.userAgent);
-}
+// function isMobile() {
+//   return /Android|iPhone|iPad|iPod|BlackBerry|Windows Phone/i.test(navigator.userAgent);
+// }
 
-function checkDeviceAndPrompt() {
-  if (isMobile()) {
-    window.location.href = "/valentine/mobile.html";
-  }
-}
+// function checkDeviceAndPrompt() {
+//   if (isMobile()) {
+//     window.location.href = "/valentine/mobile.html";
+//   }
+// }
 
 window.onload = checkDeviceAndPrompt;
